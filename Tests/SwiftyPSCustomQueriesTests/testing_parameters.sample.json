@@ -1,0 +1,96 @@
+{
+    "baseURL": "https://powerschool.myschool.com",
+    "clientID": "",
+    "clientSecret": "",
+    "schoolsCount": 3,
+    "schoolNames": [
+        "My School - Lower",
+        "My School - Middle",
+        "My School - Upper"
+    ],
+    "testSchool": {
+        "schoolNumber": 1,
+        "courseCount": 123
+    },
+    "testTeacher": {
+        "teacherID": 123,
+        "teacherSections": [
+            {
+                "course_number": "CSC101",
+                "course_name": "Intro to Computer Science",
+                "num_students": "24",
+                "id": "21848",
+                "external_expression": "1(M-F)",
+                "room": "B129",
+                "teacher": "1234",
+                "dcid": "12345",
+                "section_number": "1"
+            }
+        ],
+        "teacherSectionsCount": 7,
+        "homeroomRoster": [
+            {
+                "grade_level": "7",
+                "dcid": "5978",
+                "gender": "M",
+                "lastfirst": "Appleseed, Johnny",
+                "student_number": "78219",
+                "last_name": "Appleseed",
+                "id": "16789",
+                "first_name": "Johnny"
+            }
+        ]
+    },
+    "testSection": {
+        "sectionDCID": "12345",
+        "enrollments": [
+            {
+                "grade_level": "7",
+                "dcid": "5978",
+                "student_number": "78219",
+                "lastfirst": "Appleseed, Johnny",
+                "gender": "M",
+                "last_name": "Appleseed",
+                "id": "16789",
+                "first_name": "Johnny"
+            }
+        ]
+    },
+    "testCourse": {
+        "courseNumber": "CSC101",
+        "courseSections": [
+            {
+                "course_number": "CSC101",
+                "course_name": "Intro to Computer Science",
+                "num_students": "24",
+                "room": "B129",
+                "teacher": "1234",
+                "dcid": "12345",
+                "id": "21848",
+                "external_expression": "1(M-F)",
+                "section_number": "1"
+            }
+        ]
+    },
+    "testStudents" : [
+        {
+            "id": 1,
+            "local_id": 12345,
+            "student_username": 78654,
+            "name": {
+                "first_name": "Johnny",
+                "last_name": "Appleseed"
+            }
+        },
+        {
+            "id": 2,
+            "local_id": 45678,
+            "student_username": "sappleseed",
+            "name": {
+                "first_name": "Sally",
+                "middle_name": "M",
+                "last_name": "Appleseed"
+            }
+        }
+    ]
+}
