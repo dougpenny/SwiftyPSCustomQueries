@@ -17,7 +17,7 @@ let package = Package(
     dependencies: [
         .package(
             url: "https://github.com/dougonecent/SwiftyPSCore.git",
-            from: "1.0.0-beta6"
+            from: "1.0.0-beta8"
         )
     ],
     targets: [
